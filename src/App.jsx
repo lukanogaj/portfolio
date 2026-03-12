@@ -1,12 +1,11 @@
-import Container from "./components/Container/Container";
+import Hero from "./sections/Hero/Hero";
 
-function App() {
+const App = () => {
 	return (
-		<Container>
-			<h1>Lukasz Nogaj</h1>
-			<p>Frontend Developer</p>
-		</Container>
+		<>
+			<Hero />
+		</>
 	);
-}
+};
 
 export default App;
