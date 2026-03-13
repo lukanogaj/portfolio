@@ -1,0 +1,20 @@
+.projectsSection {
+	padding: 4rem 0;
+}
+
+.projectsContent {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.projectsTitle {
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+.projectsGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 2rem;
+}

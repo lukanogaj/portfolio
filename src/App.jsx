@@ -1,11 +1,11 @@
 import Hero from "./sections/Hero/Hero";
-import ProjectCard from "./components/ProjectCard/ProjectCard";
-import { projects } from "./data/projects";
+import Projects from "./sections/Projects/Projects";
+
 const App = () => {
 	return (
 		<>
 			<Hero />
-			<ProjectCard project={projects[0]} />
+			<Projects />
 		</>
 	);
 };
