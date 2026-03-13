@@ -1,10 +1,16 @@
 import styles from "./ProjectCard.module.scss";
 
 const ProjectCard = ({ project }) => {
-  const { title, description, stack, github, demo } = project;
+  const { title, description, stack, github, demo, image } = project;
 
   return (
     <article className={styles.card}>
+      {image && (
+        <div className={styles.imageWrapper}>
+          <img src={image} alt={title} className={styles.projectImage} />
+        </div>
+      )}
+
       <h3 className={styles.title}>{title}</h3>
 
       <p className={styles.description}>{description}</p>

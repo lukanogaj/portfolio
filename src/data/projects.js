@@ -1,3 +1,6 @@
+import anchorPreview from "../assets/images/projects/anchor-preview.png";
+import strapiLandingPreview from "../assets/images/projects/strapi-landing-preview.png";
+
 export const projects = [
   {
     id: "anchor",
@@ -7,6 +10,7 @@ export const projects = [
     stack: ["React", "Supabase", "SCSS"],
     github: "https://github.com/lukanogaj/anchor",
     demo: "#",
+    image: anchorPreview,
   },
   {
     id: "landing-builder",
@@ -16,13 +20,6 @@ export const projects = [
     stack: ["JavaScript", "HTML", "CSS"],
     github: "#",
     demo: "#",
-  },
-  {
-    id: "portfolio",
-    title: "Developer Portfolio",
-    description: "Minimal React portfolio showcasing selected projects.",
-    stack: ["React", "Vite", "SCSS"],
-    github: "https://github.com/lukanogaj/portfolio",
-    demo: "#",
+    image: strapiLandingPreview,
   },
 ];
