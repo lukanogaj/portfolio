@@ -2,6 +2,7 @@ import Hero from "./sections/Hero/Hero";
 import Projects from "./sections/Projects/Projects";
 import TechStack from "./sections/TechStack/TechStack";
 import About from "./sections/About/About";
+import Contact from "./sections/Contact/Contact";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Projects />
       <TechStack />
       <About />
+      <Contact />
     </>
   );
 };
