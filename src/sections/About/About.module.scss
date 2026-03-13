@@ -1,0 +1,21 @@
+.aboutSection {
+  padding: 4rem 0;
+}
+
+.aboutContent {
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.aboutTitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.aboutText {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #475569;
+}
