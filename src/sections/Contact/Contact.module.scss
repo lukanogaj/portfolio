@@ -1,0 +1,30 @@
+.contactSection {
+  padding: 4rem 0 6rem;
+}
+
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contactTitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.contactLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contactLink {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+}
