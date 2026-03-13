@@ -6,13 +6,13 @@ import Contact from "./sections/Contact/Contact";
 
 const App = () => {
   return (
-    <>
+    <main>
       <Hero />
       <Projects />
       <TechStack />
       <About />
       <Contact />
-    </>
+    </main>
   );
 };
 
