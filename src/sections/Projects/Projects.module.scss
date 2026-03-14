@@ -1,3 +1,5 @@
+@use "../../styles/variables" as *;
+
 .projectsSection {
   padding: 4rem 0;
 }
@@ -9,12 +11,29 @@
 }
 
 .projectsTitle {
-  font-size: 1.8rem;
-  font-weight: 600;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: $color-text;
 }
 
 .projectsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 2rem;
+}
+
+@media (max-width: 48rem) {
+  .projectsSection {
+    padding: 3rem 0;
+  }
+
+  .projectsTitle {
+    font-size: 1.75rem;
+  }
+
+  .projectsGrid {
+    grid-template-columns: 1fr;
+  }
 }
