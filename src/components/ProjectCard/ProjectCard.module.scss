@@ -107,7 +107,24 @@
   color: v.$color-text;
 }
 
+@media (max-width: 64rem) {
+  .projectCardContent {
+    padding: 1.375rem;
+  }
+
+  .projectTitle {
+    font-size: 1.4375rem;
+  }
+
+  .projectDescription {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 48rem) {
+  .projectImageWrapper {
+    aspect-ratio: 16 / 9;
+  }
   .projectCardContent {
     padding: 1.25rem;
   }
@@ -118,5 +135,89 @@
 
   .projectDescription {
     font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .projectLinks {
+    gap: 0.875rem;
+  }
+}
+
+@media (max-width: 26.875rem) {
+  .projectCard {
+    border-radius: 0.875rem;
+  }
+
+  .projectCardContent {
+    gap: 0.875rem;
+    padding: 1.125rem;
+  }
+
+  .projectTitle {
+    font-size: 1.25rem;
+  }
+
+  .projectDescription {
+    font-size: 0.9375rem;
+  }
+
+  .projectTechTag {
+    min-height: 1.875rem;
+    padding: 0.35rem 0.6875rem;
+    font-size: 0.8125rem;
+  }
+
+  .projectLink {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (max-width: 23.4375rem) {
+  .projectCardContent {
+    padding: 1rem;
+  }
+
+  .projectTitle {
+    font-size: 1.1875rem;
+  }
+
+  .projectDescription {
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+
+  .projectStack {
+    gap: 0.5rem;
+  }
+
+  .projectLinks {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+  }
+}
+
+@media (max-width: 20rem) {
+  .projectTitle {
+    font-size: 1.125rem;
+  }
+
+  .projectDescription {
+    font-size: 0.875rem;
+  }
+
+  .projectTechTag {
+    font-size: 0.75rem;
+  }
+
+  .projectLink {
+    font-size: 0.875rem;
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  .projectCard:hover {
+    transform: translateY(-0.25rem);
+    border-color: v.$color-accent;
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.22);
   }
 }

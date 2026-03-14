@@ -3,3 +3,16 @@
   margin: 0 auto;
   padding: 0 1.5rem;
 }
+/* tablet */
+@media (max-width: 48rem) {
+  .container {
+    padding: 0 1.25rem;
+  }
+}
+
+/* small phones */
+@media (max-width: 26.875rem) {
+  .container {
+    padding: 0 1rem;
+  }
+}

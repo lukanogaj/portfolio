@@ -1,3 +1,5 @@
+@use "../../styles/variables" as v;
+
 .contactSection {
   padding: 4rem 0 6rem;
 }
@@ -9,8 +11,11 @@
 }
 
 .contactTitle {
+  margin: 0;
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 700;
+  line-height: 1.2;
+  color: v.$color-text;
 }
 
 .contactLinks {
@@ -20,11 +25,66 @@
 }
 
 .contactLink {
-  color: #6366f1;
+  font-size: 1rem;
+  font-weight: 600;
+  color: v.$color-accent;
   text-decoration: none;
-  font-weight: 500;
+  transition: color 0.2s ease;
 }
 
 .contactLink:hover {
-  text-decoration: underline;
+  color: v.$color-text;
+}
+
+/* 768 */
+@media (max-width: 48rem) {
+  .contactSection {
+    padding: 3rem 0 4.5rem;
+  }
+
+  .contactTitle {
+    font-size: 1.65rem;
+  }
+}
+
+/* 430 */
+@media (max-width: 26.875rem) {
+  .contactTitle {
+    font-size: 1.55rem;
+  }
+
+  .contactLinks {
+    gap: 0.875rem;
+  }
+
+  .contactLink {
+    font-size: 0.95rem;
+  }
+}
+
+/* 375 */
+@media (max-width: 23.4375rem) {
+  .contactTitle {
+    font-size: 1.45rem;
+  }
+
+  .contactLink {
+    font-size: 0.9rem;
+  }
+}
+
+/* 320 */
+@media (max-width: 20rem) {
+  .contactTitle {
+    font-size: 1.35rem;
+  }
+
+  .contactLinks {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contactLink {
+    font-size: 0.875rem;
+  }
 }

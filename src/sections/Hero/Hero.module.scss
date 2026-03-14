@@ -87,14 +87,32 @@
   color: $color-accent;
   transform: translateY(-0.0625rem);
 }
+@media (max-width: 64rem) {
+  .heroTitle {
+    font-size: 2.75rem;
+  }
+}
 
 @media (max-width: 48rem) {
   .hero {
     padding: 4.5rem 0;
   }
 
+  .heroContent {
+    max-width: 100%;
+  }
+
   .heroTitle {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
+  }
+
+  .heroRole {
+    font-size: 1.125rem;
+  }
+
+  .heroDescription,
+  .heroTech {
+    font-size: 0.95rem;
   }
 
   .heroActions {
@@ -104,5 +122,52 @@
   .primaryButton,
   .secondaryButton {
     width: 100%;
+  }
+}
+
+@media (max-width: 26.875rem) {
+  .hero {
+    padding: 4rem 0;
+  }
+
+  .heroTitle {
+    font-size: 2.1rem;
+  }
+
+  .heroRole {
+    font-size: 1rem;
+  }
+
+  .heroDescription,
+  .heroTech {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (max-width: 23.4375rem) {
+  .heroTitle {
+    font-size: 1.95rem;
+  }
+
+  .heroDescription,
+  .heroTech {
+    font-size: 0.9rem;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    min-height: 2.625rem;
+    padding: 0.75rem 1rem;
+  }
+}
+
+@media (max-width: 20rem) {
+  .heroTitle {
+    font-size: 1.8rem;
+  }
+
+  .heroDescription,
+  .heroTech {
+    font-size: 0.875rem;
   }
 }

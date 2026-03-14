@@ -11,6 +11,7 @@
 }
 
 .techStackTitle {
+  margin: 0;
   font-size: 2rem;
   font-weight: 700;
   color: v.$color-text;
@@ -49,9 +50,66 @@
   line-height: 1.7;
 }
 
+/* 1024 */
+@media (max-width: 64rem) {
+  .techGroups {
+    gap: 3rem;
+  }
+}
+
+/* 768 */
 @media (max-width: 48rem) {
+  .techStackSection {
+    padding: 3rem 0;
+  }
+
+  .techStackTitle {
+    font-size: 1.75rem;
+  }
+
   .techGroups {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+}
+
+/* 430 */
+@media (max-width: 26.875rem) {
+  .techStackContent {
+    gap: 2rem;
+  }
+
+  .techStackTitle {
+    font-size: 1.65rem;
+  }
+
+  .groupTitle {
+    font-size: 1rem;
+  }
+
+  .techList li {
+    font-size: 0.9rem;
+  }
+}
+
+/* 375 */
+@media (max-width: 23.4375rem) {
+  .techStackTitle {
+    font-size: 1.55rem;
+  }
+
+  .techList li {
+    font-size: 0.875rem;
+  }
+}
+
+/* 320 */
+@media (max-width: 20rem) {
+  .techStackTitle {
+    font-size: 1.45rem;
+  }
+
+  .techList li {
+    font-size: 0.85rem;
   }
 }

@@ -32,6 +32,14 @@
   color: v.$color-text-muted;
 }
 
+/* 1024 */
+@media (max-width: 64rem) {
+  .aboutText {
+    max-width: 40rem;
+  }
+}
+
+/* 768 */
 @media (max-width: 48rem) {
   .aboutSection {
     padding: 3rem 0;
@@ -48,5 +56,49 @@
   .aboutParagraph {
     font-size: 1rem;
     line-height: 1.75;
+  }
+}
+
+/* 430 */
+@media (max-width: 26.875rem) {
+  .aboutContent {
+    gap: 1.75rem;
+  }
+
+  .aboutTitle {
+    font-size: 1.65rem;
+  }
+
+  .aboutText {
+    gap: 1.25rem;
+  }
+
+  .aboutParagraph {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+}
+
+/* 375 */
+@media (max-width: 23.4375rem) {
+  .aboutTitle {
+    font-size: 1.55rem;
+  }
+
+  .aboutParagraph {
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+}
+
+/* 320 */
+@media (max-width: 20rem) {
+  .aboutTitle {
+    font-size: 1.45rem;
+  }
+
+  .aboutParagraph {
+    font-size: 0.875rem;
+    line-height: 1.6;
   }
 }
