@@ -14,14 +14,15 @@ export const projects = [
   },
   {
     id: "landing-builder",
-    title: "Strapi Landing Page",
+    title: "JS Landing Page Builder",
     description:
       "A modular vanilla JavaScript project for building landing pages.",
     stack: ["JavaScript", "HTML", "CSS"],
-    github: "YOUR_REAL_GITHUB_LINK",
-    demo: "YOUR_REAL_LIVE_DEMO_LINK",
+    github: "https://github.com/lukanogaj/strapi-landing-clone",
+    demo: "https://lukanogaj.github.io/js-landing-builder/",
     image: strapiLandingPreview,
   },
+
   {
     id: "portfolio",
     title: "Developer Portfolio",
