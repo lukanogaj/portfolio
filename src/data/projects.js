@@ -29,7 +29,7 @@ export const projects = [
     description: "Minimal React portfolio showcasing selected projects.",
     stack: ["React", "Vite", "SCSS"],
     github: "https://github.com/lukanogaj/portfolio",
-    demo: "https://portfolio-theta-two-8m64j7gyg9.vercel.app/",
+    demo: "https://lukasz-nogaj.vercel.app",
     image: portfolioPreview,
   },
 ];
