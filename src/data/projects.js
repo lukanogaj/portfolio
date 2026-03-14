@@ -1,5 +1,6 @@
 import anchorPreview from "../assets/images/projects/anchor-preview.png";
 import jsLandingBuilderPreview from "../assets/images/projects/strapi-landing-preview.png";
+import portfolioPreview from "../assets/images/projects/portfolio-preview.png";
 
 export const projects = [
   {
@@ -29,5 +30,6 @@ export const projects = [
     stack: ["React", "Vite", "SCSS"],
     github: "https://github.com/lukanogaj/portfolio",
     demo: "https://portfolio-theta-two-8m64j7gyg9.vercel.app/",
+    image: portfolioPreview,
   },
 ];
