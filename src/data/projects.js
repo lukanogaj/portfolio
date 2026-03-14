@@ -1,5 +1,5 @@
 import anchorPreview from "../assets/images/projects/anchor-preview.png";
-import strapiLandingPreview from "../assets/images/projects/strapi-landing-preview.png";
+import jsLandingBuilderPreview from "../assets/images/projects/strapi-landing-preview.png";
 
 export const projects = [
   {
@@ -20,15 +20,14 @@ export const projects = [
     stack: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/lukanogaj/strapi-landing-clone",
     demo: "https://lukanogaj.github.io/js-landing-builder/",
-    image: strapiLandingPreview,
+    image: jsLandingBuilderPreview,
   },
-
   {
     id: "portfolio",
     title: "Developer Portfolio",
     description: "Minimal React portfolio showcasing selected projects.",
     stack: ["React", "Vite", "SCSS"],
     github: "https://github.com/lukanogaj/portfolio",
-    demo: "#",
+    demo: "https://portfolio-theta-two-8m64j7gyg9.vercel.app/",
   },
 ];
