@@ -1,16 +1,44 @@
-# React + Vite
+# Portfolio — Lukasz Nogaj
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Minimal React portfolio showcasing selected projects.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ https://lukasz-nogaj.vercel.app
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* SCSS Modules
+* Vite
 
-## Expanding the ESLint configuration
+## Projects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This portfolio presents three projects:
+
+* Anchor — task scheduler built with React and Supabase
+* JS Landing Page Builder — vanilla JavaScript project (DOM manipulation)
+* Portfolio Website — this project
+
+## About
+
+Frontend developer focused on building clean React applications with simple architecture and practical UI.
+
+Currently preparing for my first frontend developer role.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Notes
+
+Projects are focused on:
+
+* simple data flow
+* clean structure
+* practical UI
+
