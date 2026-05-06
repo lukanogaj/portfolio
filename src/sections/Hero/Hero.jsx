@@ -11,8 +11,10 @@ const Hero = () => {
           <p className={styles.heroRole}>Frontend Developer</p>
 
           <p className={styles.heroDescription}>
-            I build clean React applications with a focus on simple architecture
-            and practical UI.
+            Frontend Developer focused on building practical React applications
+            with clean architecture and real-world data flow. Transitioning into
+            software development after 20 years of professional experience in
+            transport operations and customer-facing roles.
           </p>
 
           <p className={styles.heroTech}>
