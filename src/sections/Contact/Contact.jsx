@@ -19,7 +19,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/lukasz-nogaj-768570b4/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.contactLink}

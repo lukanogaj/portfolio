@@ -19,8 +19,8 @@
 
 .techGroups {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 4rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 3rem;
 }
 
 .techGroup {
@@ -30,6 +30,7 @@
 }
 
 .groupTitle {
+  margin: 0;
   font-size: 1.05rem;
   font-weight: 600;
   color: v.$color-text;
@@ -53,6 +54,7 @@
 /* 1024 */
 @media (max-width: 64rem) {
   .techGroups {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 3rem;
   }
 }

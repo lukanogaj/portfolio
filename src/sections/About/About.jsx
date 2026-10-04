@@ -10,13 +10,15 @@ const About = () => {
 
           <div className={styles.aboutText}>
             <p className={styles.aboutParagraph}>
-              I am a frontend developer focused on building structured React
-              applications with clean architecture and practical UI.
+              I am a full-stack JavaScript developer focused on building
+              practical applications with React, TypeScript, Node.js and
+              PostgreSQL.
             </p>
 
             <p className={styles.aboutParagraph}>
-              Currently working on production-ready projects and preparing for
-              my first frontend role.
+              My background in UK public transport operations gives me
+              first-hand experience with real operational workflows and business
+              problems, which I now apply to software development.
             </p>
           </div>
         </div>

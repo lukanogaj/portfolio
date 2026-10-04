@@ -1,35 +1,43 @@
-import anchorPreview from "../assets/images/projects/anchor-preview.png";
-import jsLandingBuilderPreview from "../assets/images/projects/strapi-landing-preview.png";
-import portfolioPreview from "../assets/images/projects/portfolio-preview.png";
+import busOperationsPreview from "../assets/images/projects/bus-operations-preview.png";
+import dayflowPreview from "../assets/images/projects/dayflow-preview.png";
+import madreDiDioPreview from "../assets/images/projects/madre-di-dio-preview.png";
 
 export const projects = [
   {
-    id: "anchor",
-    title: "Anchor — Task Scheduler",
+    id: "bus-operations-simulator",
+    title: "Bus Operations Simulator",
     description:
-      "A React task scheduler with realtime updates and structured architecture.",
-    stack: ["React", "Supabase", "SCSS"],
-    github: "https://github.com/lukanogaj/anchor",
-    demo: "https://anchor-phi-sandy.vercel.app",
-    image: anchorPreview,
+      "Full-stack operations platform based on real-world bus garage workflows, including driver scheduling, rota allocation, sign-on, absences, incidents and operational issue management.",
+    stack: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Docker",
+    ],
+    github: "https://github.com/lukanogaj/bus-operations-simulator",
+    demo: "https://bus-operations-simulator.onrender.com",
+    image: busOperationsPreview,
   },
   {
-    id: "landing-builder",
-    title: "JS Landing Page Builder",
+    id: "dayflow",
+    title: "Dayflow",
     description:
-      "A modular vanilla JavaScript project for building landing pages.",
-    stack: ["JavaScript", "HTML", "CSS"],
-    github: "https://github.com/lukanogaj/strapi-landing-clone",
-    demo: "https://lukanogaj.github.io/js-landing-builder/",
-    image: jsLandingBuilderPreview,
+      "React and TypeScript application focused on predictable data flow, derived state, reusable helpers and automated testing.",
+    stack: ["React", "TypeScript", "Vitest"],
+    github: "https://github.com/lukanogaj/dayflow",
+    demo: "https://dayflow-seven-psi.vercel.app",
+    image: dayflowPreview,
   },
   {
-    id: "portfolio",
-    title: "Developer Portfolio",
-    description: "Minimal React portfolio showcasing selected projects.",
-    stack: ["React", "Vite", "SCSS"],
-    github: "https://github.com/lukanogaj/portfolio",
-    demo: "https://lukasz-nogaj.vercel.app",
-    image: portfolioPreview,
+    id: "madre-di-dio",
+    title: "Madre di Dio",
+    description:
+      "Responsive React and TypeScript website for a wedding music ensemble, featuring reusable components, custom visual design and light and dark themes.",
+    stack: ["React", "TypeScript", "Vite", "CSS"],
+    github: "https://github.com/lukanogaj/madre-di-dio",
+    demo: "https://madre-di-dio.vercel.app",
+    image: madreDiDioPreview,
   },
 ];
