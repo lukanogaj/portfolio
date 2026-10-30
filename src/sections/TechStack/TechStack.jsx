@@ -14,8 +14,9 @@ const TechStack = () => {
               <ul className={styles.techList}>
                 <li>React</li>
                 <li>TypeScript</li>
-                <li>JavaScript</li>
-                <li>HTML & CSS</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Next.js</li>
+                <li>HTML & CSS / SCSS</li>
               </ul>
             </div>
 
@@ -24,16 +25,17 @@ const TechStack = () => {
               <ul className={styles.techList}>
                 <li>Node.js</li>
                 <li>Express</li>
-                <li>PostgreSQL</li>
+                <li>PostgreSQL / SQL</li>
                 <li>REST APIs</li>
+                <li>JWT & bcrypt</li>
               </ul>
             </div>
 
             <div className={styles.techGroup}>
-              <h3 className={styles.groupTitle}>Tools & Deployment</h3>
+              <h3 className={styles.groupTitle}>Testing & Tools</h3>
               <ul className={styles.techList}>
-                <li>Git & GitHub</li>
                 <li>Vitest</li>
+                <li>Git & GitHub</li>
                 <li>Docker</li>
                 <li>Vite</li>
               </ul>
