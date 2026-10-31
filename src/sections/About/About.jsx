@@ -10,16 +10,24 @@ const About = () => {
 
           <div className={styles.aboutText}>
             <p className={styles.aboutParagraph}>
-              I am a frontend developer focused on React and TypeScript,
-              building reusable components, responsive interfaces and
-              applications connected to REST APIs.
+              I am a full-stack developer with commercial React and TypeScript
+              experience, building reusable components, responsive interfaces
+              and applications connected to REST APIs.
             </p>
 
             <p className={styles.aboutParagraph}>
-              I also work across the stack with Node.js, Express and PostgreSQL.
-              My background in UK public transport operations gives me
-              first-hand experience with complex operational workflows and
-              business problems, which I apply to software development.
+              I work across the stack with React, TypeScript, Node.js, Express
+              and PostgreSQL. My main full-stack project, Bus Operations
+              Simulator, applies these technologies to real operational
+              workflows and business problems from the public transport
+              industry.
+            </p>
+
+            <p className={styles.aboutParagraph}>
+              I also bring over 12 years of professional experience from London
+              public transport, including operational roles requiring clear
+              communication, responsibility, attention to detail and
+              decision-making under pressure.
             </p>
           </div>
         </div>

@@ -9,20 +9,20 @@ const Hero = () => {
           <h1 className={styles.heroTitle}>Lukasz Nogaj</h1>
 
           <p className={styles.heroRole}>
-            Frontend Developer (React, TypeScript)
+            Full-Stack Developer (React, TypeScript, Node.js, PostgreSQL)
           </p>
 
           <p className={styles.heroDescription}>
-            Frontend developer building practical applications with React and
-            TypeScript, with additional full-stack experience using Node.js,
-            Express and PostgreSQL. I combine software development with
-            extensive experience in UK public transport operations, giving me a
-            strong understanding of real-world workflows, business logic and
-            operational systems.
+            Full-stack developer with commercial React and TypeScript
+            experience, building modern web applications across the frontend and
+            backend with Node.js, Express and PostgreSQL. I combine software
+            development with over 12 years of experience in UK public transport
+            operations, giving me a strong understanding of real-world
+            workflows, business logic and operational systems.
           </p>
 
           <p className={styles.heroTech}>
-            React • TypeScript • JavaScript • Node.js • PostgreSQL • Docker
+            React • TypeScript • Node.js • Express • PostgreSQL • Docker
           </p>
 
           <div className={styles.heroActions}>

@@ -17,7 +17,7 @@ export const projects = [
       "Docker",
     ],
     github: "https://github.com/lukanogaj/bus-operations-simulator",
-    demo: "https://bus-operations-simulator.onrender.com",
+    demo: "https://bus-operations-simulator.onrender.com/",
     image: busOperationsPreview,
   },
   {
@@ -27,7 +27,7 @@ export const projects = [
       "React and TypeScript application focused on predictable data flow, derived state, reusable helpers and automated testing.",
     stack: ["React", "TypeScript", "Vitest"],
     github: "https://github.com/lukanogaj/dayflow",
-    demo: "https://dayflow-seven-psi.vercel.app",
+    demo: "https://dayflow-seven-psi.vercel.app/",
     image: dayflowPreview,
   },
   {
@@ -37,7 +37,7 @@ export const projects = [
       "Responsive React and TypeScript website for a wedding music ensemble, featuring reusable components, custom visual design and light and dark themes.",
     stack: ["React", "TypeScript", "Vite", "CSS"],
     github: "https://github.com/lukanogaj/madre-di-dio",
-    demo: "https://madre-di-dio.vercel.app",
+    demo: "https://madre-di-dio.vercel.app/",
     image: madreDiDioPreview,
   },
 ];
